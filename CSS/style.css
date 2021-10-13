@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+header .header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 0;
+  width: 90%;
+  margin: auto;
+}
+
+header .header__navbar .header--logo {
+  width: 8em;
+}
+
+header .header__navbar .header--button {
+  background: #fff;
+  color: #00252e;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 2px 5px 2px rgba(128, 141, 153, 0.3);
+}
+
+header .landing__section {
+  width: 90%;
+  margin: auto;
+}
+
+header .landing__section .landing__info {
+  text-align: center;
+}
+
+header .landing__section .landing__info .landing__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+header .landing__section .landing__info .landing__description {
+  font-weight: 400;
+}
+
+header .landing__section .landing__info .landing--button {
+  display: inline-block;
+  background: #ff52bf;
+  color: #ebfbff;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+main .together__section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #dcebef;
+}
+
+main .together__section .together__info .together__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main .together__section .together__info .together__description {
+  font-weight: 400;
+  color: #808d99;
+}
+
+main .conversation__section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #dcebef;
+}
+
+main .conversation__section .conversation__info .conversation__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main .conversation__section .conversation__info .conversation__description {
+  font-weight: 400;
+  color: #808d99;
+}
+
+main .users__section {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #dcebef;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+main .users__section .users__info .users__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main .users__section .users__info .users__description {
+  font-weight: 400;
+  color: #808d99;
+}
+
+main .community__section {
+  position: relative;
+  bottom: -60px;
+  background: #fff;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px #dcebef;
+}
+
+main .community__section .community__section__relative {
+  height: 10em;
+}
+
+main
+  .community__section
+  .community__section__relative
+  .community__header
+  .community__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+main
+  .community__section
+  .community__section__relative
+  .community__button
+  .community--button {
+  display: inline-block;
+  background: #ff52bf;
+  color: #ebfbff;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+}
+
+footer {
+  background: #00252e;
+}
+
+footer p {
+  list-style: none;
+  color: #ebfbff;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ebfbff;
+}
+
+footer .footer__footer .footer__aboutus {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer__footer .footer__info {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer__copy__icons .footer__icons a i {
+  width: 1em;
+  color: #ebfbff;
+  padding: 0.4em;
+  margin-right: 0.7em;
+  border-radius: 50%;
+  border: 1px solid #ebfbff;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  header {
+    background: url(../IMG/bg-hero-mobile.svg), #ebfbff;
+    background-repeat: no-repeat;
+  }
+  header .header__navbar .header--button {
+    padding: 0.5em 1.875em;
+  }
+  header .landing__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+  }
+  header .landing__section .landing__info {
+    margin: 2em 0;
+  }
+  header .landing__section .landing__info .landing__title {
+    font-size: 1.4rem;
+  }
+  header .landing__section .landing__info .landing--button {
+    width: 20em;
+    padding: 1em 0;
+  }
+  header .landing__section .landing__image img {
+    width: 100%;
+  }
+  main .together__section {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  main .together__section .together__info .together__title {
+    font-size: 1rem;
+  }
+  main .together__section .together__info .together__description {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  main .together__section .together__image img {
+    display: inline-block;
+    width: 100%;
+  }
+  main .conversation__section {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  main .conversation__section .conversation__info .conversation__title {
+    font-size: 1rem;
+  }
+  main .conversation__section .conversation__info .conversation__description {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  main .conversation__section .conversation__image img {
+    display: inline-block;
+    width: 100%;
+  }
+  main .users__section {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  main .users__section .users__info .users__title {
+    font-size: 1rem;
+  }
+  main .users__section .users__info .users__description {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  main .users__section .users__image img {
+    display: inline-block;
+    width: 100%;
+  }
+  main .community__section .community__section__relative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main
+    .community__section
+    .community__section__relative
+    .community__header
+    .community__title {
+    font-size: 1rem;
+  }
+  main
+    .community__section
+    .community__section__relative
+    .community__button
+    .community--button {
+    width: 15em;
+    padding: 0.9em 2em;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__footer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer .footer__footer .footer__contact {
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__contact .footer__logo {
+    padding-top: 5em;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__contact .footer__logo .footer--logo {
+    width: 8em;
+  }
+  footer .footer__footer .footer__contact__icons__info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__contact__icons__info .footer--contact {
+    display: inline-block;
+    height: 1em;
+    padding-right: 1em;
+  }
+  footer .footer__footer .footer__contact__icons__info p {
+    font-size: 0.9rem;
+  }
+  footer .footer__footer .footer__aboutus a {
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__info {
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__info a {
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__copy__icons .footer__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__copy__icons .footer__icons a i {
+    font-size: 0.9rem;
+  }
+  footer .footer__footer .footer__copy__icons .footer__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  footer .footer__footer .footer__copy__icons .footer__copy p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header .header__navbar .header--button {
+    padding: 0.7em 1.875em;
+  }
+  header .landing__section .landing__image img {
+    display: inline-block;
+    width: 30em;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    background: url(../IMG/bg-hero-desktop.svg) center, #ebfbff;
+    background-repeat: no-repeat;
+    margin-bottom: 4em;
+  }
+  header .header__navbar {
+    padding: 2em 0 0;
+  }
+  header .header__navbar .header--logo {
+    width: 10em;
+  }
+  header .header__navbar .header--button {
+    cursor: pointer;
+    padding: 0.9em 0.4em;
+    width: 13em;
+  }
+  header .landing__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 35em;
+    margin-bottom: 0;
+  }
+  header .landing__section .landing__info {
+    text-align: start;
+    width: 100%;
+    max-width: 25em;
+  }
+  header .landing__section .landing__info .landing__title {
+    font-size: 2rem;
+  }
+  header .landing__section .landing__info .landing__description {
+    font-size: 1rem;
+  }
+  header .landing__section .landing__info .landing--button {
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 1.2em 2em;
+    width: 20em;
+  }
+  header .landing__section .landing__image {
+    margin-left: 2em;
+  }
+  main .together__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  main .together__section .together__info .together__title {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  main .together__section .together__info .together__description {
+    text-align: start;
+    margin: 0;
+  }
+  main .together__section .together__image img {
+    display: inline-block;
+    width: 90%;
+  }
+  main .conversation__section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  main .conversation__section .conversation__info .conversation__title {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  main .conversation__section .conversation__info .conversation__description {
+    text-align: start;
+    margin: 0;
+  }
+  main .conversation__section .conversation__image img {
+    display: inline-block;
+    width: 90%;
+  }
+  main .users__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  main .users__section .users__info .users__title {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  main .users__section .users__info .users__description {
+    text-align: start;
+    margin: 0;
+  }
+  main .users__section .users__image img {
+    display: inline-block;
+    width: 90%;
+  }
+  main .community__section {
+    height: 12em;
+    width: 37em;
+    padding: 0;
+    bottom: -85px;
+  }
+  main .community__section .community__section__relative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main
+    .community__section
+    .community__section__relative
+    .community__header
+    .community__title {
+    font-size: 1.5rem;
+  }
+  main
+    .community__section
+    .community__section__relative
+    .community__button
+    .community--button {
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 1.2em 2em;
+    width: 20em;
+  }
+  footer {
+    height: 20em;
+    padding-top: 4em;
+  }
+  footer .footer__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  footer .footer__footer .footer__contact {
+    margin-bottom: 0;
+    width: 20em;
+  }
+  footer .footer__footer .footer__contact .footer__logo {
+    margin-bottom: 2em;
+    padding: 0;
+  }
+  footer .footer__footer .footer__contact .footer__logo .footer--logo {
+    width: 12em;
+  }
+  footer .footer__footer .footer__contact .footer__contact__icons__info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1em;
+  }
+  footer
+    .footer__footer
+    .footer__contact
+    .footer__contact__icons__info
+    .footer--contact {
+    display: inline-block;
+    padding-right: 1em;
+  }
+  footer .footer__footer .footer__contact .footer__contact__icons__info p {
+    font-size: 0.9rem;
+  }
+  footer .footer__footer .footer__aboutus {
+    width: 10em;
+  }
+  footer .footer__footer .footer__aboutus a {
+    font-size: 0.9rem;
+    margin-bottom: 0.5em;
+  }
+  footer .footer__footer .footer__info {
+    margin-bottom: 0;
+    width: 10em;
+  }
+  footer .footer__footer .footer__info a {
+    font-size: 0.9rem;
+    margin-bottom: 0.5em;
+  }
+  footer .footer__footer .footer__copy__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  footer .footer__footer .footer__copy__icons .footer__icons {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  footer .footer__footer .footer__copy__icons .footer__copy {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  footer .footer__footer .footer__copy__icons .footer__copy p {
+    font-size: 0.7rem;
+  }
+}
